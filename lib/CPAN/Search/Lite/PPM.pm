@@ -8,7 +8,7 @@ use XML::SAX;
 use CPAN::Search::Lite::Util qw($repositories has_data);
 use CPAN::Search::Lite::DBI::Index;
 use CPAN::Search::Lite::DBI qw($dbh);
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 our $dbh = $CPAN::Search::Lite::DBI::dbh;
 our %wanted = map {$_ => 1} qw(SOFTPKG ABSTRACT ARCHITECTURE);

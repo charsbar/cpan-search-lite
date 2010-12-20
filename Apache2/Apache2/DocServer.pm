@@ -9,7 +9,7 @@ use Apache2::Const -compile => qw(OK REDIRECT SERVER_ERROR
                                  TAKE1 RSRC_CONF ACCESS_CONF);
 use Apache2::Module ();
 use Apache2::RequestRec ();
-our $VERSION = 0.66;
+our $VERSION = 0.77;
 
 my @directives = (
                   {name      => 'DocServer_db',

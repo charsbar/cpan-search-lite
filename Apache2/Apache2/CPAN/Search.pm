@@ -21,7 +21,7 @@ use APR::URI;
 use Apache2::URI;
 use Apache2::Module ();
 use Apache2::Log ();
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 my @directives = (
                   {name      => 'CSL_db',

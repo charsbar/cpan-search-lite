@@ -15,7 +15,7 @@ use Perl::Tidy;
 use File::Find;
 use CPAN::Search::Lite::Util qw(has_data);
 use Safe;
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 my $ext = qr/\.(tar\.gz|tar\.Z|tgz|zip)$/;
 my $DEBUG = 1;

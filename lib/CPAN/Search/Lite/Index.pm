@@ -17,7 +17,7 @@ use CPAN::Search::Lite::DBI qw($tables);
 use CPAN::Search::Lite::Util qw(has_data);
 
 our ($oldout);
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 sub new {
     my ($class, %args) = @_;

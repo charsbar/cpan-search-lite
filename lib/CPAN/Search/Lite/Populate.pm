@@ -19,7 +19,7 @@ our $dbh = $CPAN::Search::Lite::DBI::dbh;
 
 my ($setup, $no_ppm);
 my $DEBUG = 1;
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 my %tbl2obj;
 $tbl2obj{$_} = __PACKAGE__ . '::' . $_ 

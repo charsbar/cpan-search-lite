@@ -2,7 +2,7 @@ package CPAN::Search::Lite;
 use strict;
 use warnings;
 
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 1;
 
@@ -27,5 +27,9 @@ at L<http://sourceforge.net/projects/cpan-search/>.
 This software is copyright 2004 by Randy Kobes
 E<lt>randy@theoryx5.uwinnipeg.caE<gt>. Use and
 redistribution are under the same terms as Perl itself.
+
+=head1 CURRENT MAINTAINER
+
+Kenichi Ishigaki E<lt>ishigaki@cpan.orgE<gt>
 
 =cut

@@ -19,7 +19,7 @@ use constant KB => 1024;
 
 our ($lang);
 our $max_results = 200;
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 my $cdbi_query;
 
 my %mode2obj;

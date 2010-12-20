@@ -2,7 +2,7 @@ package CPAN::Search::Lite::DBI;
 use strict;
 use warnings;
 use DBI;
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 use base qw(Exporter);
 our ($dbh, $tables, @EXPORT_OK);

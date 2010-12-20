@@ -26,7 +26,7 @@ use APR::URI;
 use Apache2::URI;
 use APR::Const -compile => qw(URI_UNP_OMITQUERY);
 
-our $VERSION = 0.76;
+our $VERSION = 0.77;
 
 my @directives = (
                   {name      => 'CSL_db',
