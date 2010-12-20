@@ -13,4 +13,6 @@ Apache2/t/conf/httpd.conf
 Apache2/t/conf/mime.types
 Apache2/t/conf/modperl_inc.pl
 Apache2/t/conf/modperl_startup.pl
+lib/t/HTML/
+lib/t/POD/
 
