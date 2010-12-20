@@ -48,16 +48,16 @@ my %prereqs = ('Config::IniFiles' => 0,
 	       );
 
 eval {require Apache2;};
-eval {require Apache::Test;};
+eval {require Apache::Test; die "too old" if $Apache::Test::VERSION < 1.32 };
 if ($@) {
     print <<'END';
 
-Apache::Test is required to run the part of the test suite.
+Apache::Test 1.32 is required to run the part of the test suite.
 I can add this to the list of prerequisites, if you like.
 
 END
     my $ans = prompt("Add Apache::Test to prerequisites?", 'yes');
-    $prereqs{'Apache::Test'} = 0 if ($ans =~ /^y/i);
+    $prereqs{'Apache::Test'} = 1.32 if ($ans =~ /^y/i);
 }
 
 eval {require SOAP::Lite;};
