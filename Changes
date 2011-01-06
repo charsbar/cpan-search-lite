@@ -1,3 +1,9 @@
+January 6, 2011 - 0.77
+    - ISHIGAKI took over the maintenance.
+    - fixed several dependencies.
+    - resolved RT #51890: POD nit.
+    - removed unauthorized PPM files
+
 August 4, 2006 - 0.76
     - don't use Module::MakefilePL::Parse, as CPAN.pm reports
       there's no maintainer. Instead, use a parse_MakefilePL
