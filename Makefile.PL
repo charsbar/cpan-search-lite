@@ -10,7 +10,6 @@ my %opts = (
             PMLIBDIRS => [qw(lib Apache2)],
             EXE_FILES => \@exe_files,
             DIR => [qw(lib Apache2)],
-            NO_META => 1,
 	    dist   => {
 			 SUFFIX   => 'gz',
 			 COMPRESS => 'gzip -9f',
