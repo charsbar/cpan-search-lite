@@ -1,4 +1,5 @@
-package CPAN::Util;
+package # hide from PAUSE
+  CPAN::Util;
 use strict;
 use warnings;
 require File::Spec;

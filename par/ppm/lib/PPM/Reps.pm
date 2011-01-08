@@ -1,4 +1,5 @@
-package PPM::Reps;
+package # hide from PAUSE
+  PPM::Reps;
 use strict;
 use warnings;
 our $VERSION = 0.1;

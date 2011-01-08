@@ -1,4 +1,5 @@
-package TestCSL::search;
+package # hide from PAUSE
+  TestCSL::search;
 use strict;
 use warnings;
 use CPAN::Search::Lite::Query;

@@ -1,4 +1,5 @@
-package TestCSL;
+package # hide from PAUSE
+  TestCSL;
 use strict;
 use warnings;
 use Safe;

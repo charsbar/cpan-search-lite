@@ -1,4 +1,5 @@
-package TestCSL::lang;
+package # hide from PAUSE
+  TestCSL::lang;
 use strict;
 use warnings;
 use mod_perl2 1.999022;     # sanity check for a recent version
