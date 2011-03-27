@@ -164,18 +164,14 @@ END
            alt => 'or',
            install => 'install',
            mirror1 => << 'END',
-With this form you can specify where you want to 
-fetch downloads from (this requires cookies to be enabled).
-Your current setting is
+您能使用這個表單來選擇您希望從哪裡下載。（需要使用 cookie）
+您目前的設定是
 END
            mirror2 => << 'END',
-will attempt to redirect you to a nearby CPAN mirror,
-based on your country of origin.
+將會根據您的所在國家或地區，將您導向附近的 CPAN 鏡像站。
 END
            webstart => <<'END',
-Selecting this option will provide links enabling you to
-install CPAN modules
-and Win32 ppm packages by an application using
+若選擇這個選項，將會提供能讓您安裝 CPAN 模組及 Win32 ppm 套件的鍊結，使用軟體
 END
 };
 
