@@ -46,7 +46,7 @@ $dslip = {
       b => q{Beta 測試階段},
       c => q{建構中, 但在 pre-alpha 階段（尚未釋出）},
       desc => q{開發階段 (Note: *NO IMPLIED TIMESCALES*)},
-      i => q{構想，listed to gain consensus or as a placeholder},
+      i => q{構想，列出以增加一致性或是佔個位置},
     },
     s => {
       a => q{孤兒，這個模組已經被它的作者拋棄},
