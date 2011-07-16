@@ -15,4 +15,5 @@ Apache2/t/conf/modperl_inc.pl
 Apache2/t/conf/modperl_startup.pl
 lib/t/HTML/
 lib/t/POD/
+*.bzr
 
