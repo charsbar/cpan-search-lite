@@ -6,6 +6,7 @@
             fr => 'Fran&ccedil;ais',
             it => 'Italiano',
             pt => 'Portugu&ecirc;s',
+            zh => 'Chinese',
           }
 %]
 <div class=path><b>[% pages.mirror %]</b></div>
@@ -48,7 +49,7 @@ href="http://cpan.uwinnipeg.ca/htdocs/faqs/webstart.html">PAR::WebStart</a>.
 </p><hr /><p>
 [% pages.Language %]: <select name="lang">
 <option value="">Web browser setting</option>
-[% FOREACH choice = ['de', 'en', 'es', 'fr', 'it', 'pt'] %]
+[% FOREACH choice = ['de', 'en', 'es', 'fr', 'it', 'pt', 'zh'] %]
 [% IF choice == lang %]
  <option value="[% choice %]" selected="selected">[% langs.$choice %]</option>
 [% ELSE %]
